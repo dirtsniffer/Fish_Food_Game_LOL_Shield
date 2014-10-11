@@ -52,16 +52,36 @@ if (cx < cxMax){ cx = cxMax; x = x+1;}
 }
 
 void LoadTheBoard(){
-  LedSign::Set(8,6,1);
-  LedSign::Set(8,4,1);
-  LedSign::Set(5,6,1);
-  LedSign::Set(12,0,1);
-  LedSign::Set(1,6,1);
+  LedSign::Set(0,4,1);
+  LedSign::Set(1,5,1);
+  LedSign::Set(1,3,1);
   LedSign::Set(2,2,1);
-  LedSign::Set(11,6,1);
-  LedSign::Set(13,0,1);
-  LedSign::Set(7,6,1);
-  LedSign::Set(8,2,1);
+  LedSign::Set(2,6,1);
+  LedSign::Set(3,1,1);
+  LedSign::Set(3,7,1);
+  LedSign::Set(3,3,1);
+  LedSign::Set(4,1,1);
+  LedSign::Set(4,7,1);
+  LedSign::Set(5,1,1);
   LedSign::Set(5,7,1);
-  LedSign::Set(12,6,1);
+  LedSign::Set(6,1,1);
+  LedSign::Set(6,7,1);
+  LedSign::Set(7,2,1);
+  LedSign::Set(7,6,1);
+  LedSign::Set(8,3,1);
+  LedSign::Set(8,5,1);
+  LedSign::Set(8,4,1);
+  LedSign::Set(8,4,1);
+  LedSign::Set(10,2,1);
+  LedSign::Set(10,6,1);
+  LedSign::Set(9,3,1);
+  LedSign::Set(9,5,1);  
+  LedSign::Set(11,2,1);
+  LedSign::Set(11,6,1);
+  LedSign::Set(11,1,1);
+  LedSign::Set(11,7,1);
+  LedSign::Set(11,3,1);
+  LedSign::Set(11,5,1);
+  LedSign::Set(11,4,1);
+  LedSign::Set(11,4,1);
 }
